@@ -1,7 +1,7 @@
 package main
 
 import (
-	capture "github.com/abhishekkr/capture/webcam"
+	capture "github.com/DevJose/capture/webcam"
 )
 
 func main() {
