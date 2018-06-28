@@ -1,3 +1,20 @@
+API REST na linguagem Go que faça a gravação de uma câmera conectada ao servidor, com as seguintes 3 rotas, segue descrição:
+
+POST /api/v1/record/start
+Parâmetros: nenhum
+Retorno:
+Status: 200
+Body: Gravação iniciada com sucesso
+POST /api/v1/record/stop
+Parâmetros: nenhum
+Retorno:
+Status: 200
+Body: Gravação finalizada com sucesso
+GET /api/v1/record
+Parâmetros: nenhum
+Retorno: Download do arquivo gravado
+Observações: A API deve rodar em ambiente Linux
+
 ## capture
 ---
 
